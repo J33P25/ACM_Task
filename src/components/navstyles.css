@@ -41,7 +41,7 @@
     .navbar {
         z-index: 99;
         padding: 20px 30px;
-        height: 185px; /* unchanged */
+        height: 185px; 
     }
 
     .nav-menu {
@@ -50,7 +50,7 @@
         justify-content: flex-start;
         width: 100%;
         position: absolute;
-        top: 185px; /* align with navbar height */
+        top: 185px; 
         left: -100%;
         background: white;
         opacity: 0;
