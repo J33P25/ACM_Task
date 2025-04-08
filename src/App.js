@@ -8,14 +8,16 @@ import Login from './routes/Login';
 
 export default function App() {
   return (
+    
     <div className="App">
+      
         <Routes>
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<h1>Services</h1>} />
           <Route path="/login" element={<h1>Login</h1>} />
-
         </Routes>
+        
     </div>
   );
 }

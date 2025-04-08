@@ -2,12 +2,14 @@
     width: 100%;
     height: calc(100vh - 70px); /* Full viewport height - Navbar Height*/
     position: relative;
+    
 }
 
 .main-about{
     width: 100%;
     height: calc(100vh - 70px); /* Full viewport height - Navbar Height*/
     position: relative;
+    padding-top: 20px;
 }
 
 .main-img {
@@ -27,6 +29,7 @@
     transform: translate(-50%, -50%);
     width: 70%;
     text-align: center;
+    padding-top: 200px;
 }
 
 
@@ -70,6 +73,8 @@
     transform: translate(-50%, -50%);
     width: 70%;
     text-align: center;
+    padding-top: 220px;
+    
 }
 
 .main-about h1{
@@ -122,5 +127,28 @@
         padding: 0.75rem 1.5rem;
         font-size: 1rem;
         letter-spacing: 1px;
+    }
+
+    .main-about-text {
+        top: 35%;
+        width: 85%;
+    }
+
+    .main-about h1 {
+        font-size: 1.8rem;
+    }
+
+    .main-about h2 {
+        font-size: 1.2rem;
+        padding-bottom: 1rem;
+    }
+
+    .main-about h4 {
+        font-size: 1.6rem;
+        padding-top: 1rem;
+    }
+
+    .main-about p {
+        font-size: 1.1rem;
     }
 }

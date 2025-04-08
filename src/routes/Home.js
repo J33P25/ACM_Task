@@ -1,5 +1,6 @@
 import Main from "../components/Main";
 import Navbar from "../components/Navbar.js";
+import Dest from "../components/Dest.js";
 
 
 function Home() {
@@ -17,6 +18,7 @@ function Home() {
         btnClass="show"
         url="/"
       />
+      <Dest />
     </>
   );
 }
