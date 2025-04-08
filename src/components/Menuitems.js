@@ -1,9 +1,16 @@
 export const Menuitems = [
     {
         title: "Home",
-        icon: "fa-solid fa-house",
-        link: "/",
+        icon: "fa-solid fa-house-user",
+        link: "/home",
         cName: "nav-links"
+    },
+    {
+        title: "Contact Us",
+        icon: "fa-solid fa-address-book",
+        link: "/contact",
+        cName: "nav-links"
+
     },
     {
         title: "About Us",
@@ -17,8 +24,9 @@ export const Menuitems = [
         link: "/services",
         cName: "nav-links"
     },
+
     {
-        title: "Login In",
+        title: "Log In",
         icon: "fa-solid fa-user",
         link: "/login",
         cName: "nav-links"

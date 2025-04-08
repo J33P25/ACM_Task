@@ -1,0 +1,126 @@
+.Main {
+    width: 100%;
+    height: calc(100vh - 70px); /* Full viewport height - Navbar Height*/
+    position: relative;
+}
+
+.main-about{
+    width: 100%;
+    height: calc(100vh - 70px); /* Full viewport height - Navbar Height*/
+    position: relative;
+}
+
+.main-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.Main-text {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    text-align: center;
+}
+
+
+
+.Main-text h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    background: #004d40;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Main-text h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #004d40;
+    padding: 0.5rem 0 2rem 0;
+}
+
+.Main-text p {
+    font-size: 1.3rem;
+    color: #004d40;
+    padding: 0.5rem 0 2rem 0;
+}
+
+.Main-text .show {
+    text-decoration: none;
+    background: #f3ecdf;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #004d40;
+}
+
+.main-about-text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    text-align: center;
+}
+
+.main-about h1{
+    font-size: 2rem;
+    font-weight: 700;
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main-about h2{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: white;
+    padding: 0 0 2rem 0;
+}
+
+.main-about h4{
+    font-size: 2rem;
+    font-weight: 700;
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 0 0 0 0;
+}
+
+.main-about p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: white;
+    padding: 0 0 0 0;
+}
+
+@media screen and (max-width: 555px) {
+    .Main-text h1 {
+        font-size: 2rem;
+        padding: 10px 20px;
+    }
+
+    .Main-text h2 {
+        font-size: 1.3rem;
+    }
+
+    .Main-text p {
+        font-size: 1rem;
+        padding: 0.5rem 0;
+    }
+
+    .Main-text .show {
+        padding: 0.75rem 1.5rem;
+        font-size: 1rem;
+        letter-spacing: 1px;
+    }
+}

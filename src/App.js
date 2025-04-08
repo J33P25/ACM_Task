@@ -1,17 +1,21 @@
 import './App.css';
-import Navbar from './components/navbar';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
+import Home from './routes/Home';
+import About from './routes/About';
+import Contact from './routes/Contact';
+import Services from './routes/Services';
+import Login from './routes/Login';
 
 export default function App() {
   return (
-    <Router>
-      <div className="App">
-        <Navbar />
-        <header className="App-header">
-          <h1>Welcome to Eden Trek</h1>
-          <p>Your one-stop solution for planning your next adventure!</p>
-        </header>
-      </div>
-    </Router>
+    <div className="App">
+        <Routes>
+          <Route path="/home" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/services" element={<h1>Services</h1>} />
+          <Route path="/login" element={<h1>Login</h1>} />
+
+        </Routes>
+    </div>
   );
 }
