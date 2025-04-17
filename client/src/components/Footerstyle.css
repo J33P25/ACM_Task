@@ -1,0 +1,23 @@
+.footer{
+    padding: 4rem 6rem;
+    background-color: black;
+    color: #fff;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    text-align: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header i{
+    color: #fff;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+.header i:hover{
+    color:aquamarine;
+}
