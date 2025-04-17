@@ -1,6 +1,15 @@
+import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./Mainstyles.css";
 
 function Main(props) {
+  const navigate = useNavigate();
+
+  const handleButtonClick = (e) => {
+    e.preventDefault(); 
+    navigate("/services"); // this is your Services route
+  };
+
   return (
     <>
       <div className={props.cName}>
@@ -12,7 +21,7 @@ function Main(props) {
           
           <h4>{props.features}</h4>
           <p>{props.text}</p>
-          <a href={props.url} className={props.btnClass}>
+          <a href={props.url} className={props.btnClass} onClick={handleButtonClick}>
             {props.btnText}
           </a>
         </div>

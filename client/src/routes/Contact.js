@@ -14,8 +14,10 @@ function Contact() {
                 imgClass="contact-img"
                 welcome="Contact Us"
                 textClass="contact-text"
-            />
-            <ContactForm />
+            >
+                <ContactForm />
+            </Main>
+            
             <Footer />
             
         </>

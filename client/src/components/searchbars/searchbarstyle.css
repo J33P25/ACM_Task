@@ -1,0 +1,96 @@
+
+.searchbar {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.searchbar-items {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    background-color: #05806b; 
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 1400px;
+}
+
+.searchbar-icon {
+    color: #16a34a; 
+    font-size: 1.5rem;
+}
+
+.searchbar-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.label {
+    color: white;
+    font-size: 0.875rem;
+}
+
+.inputbox {
+    margin-top: 0.25rem;
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+    border-radius: 0.25rem;
+    background-color: white;
+    font-size: 0.9rem;
+}
+
+.trip-type {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+  }
+  
+  .trip-type label {
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .trip-type input {
+    margin-right: 0.5rem;
+  }
+
+  .service-tabs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.tab {
+    padding: 0.6rem 1.5rem;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 500;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+.tab:hover {
+    background-color: #e0e0e0;
+}
+
+.tab.active {
+    background-color: #05806b;
+    color: white;
+    border-color: #05806b;
+    box-shadow: 0 0 8px rgba(5, 128, 107, 0.3);
+}
+
+.tab-content {
+    display: flex;
+    justify-content: center;
+}
